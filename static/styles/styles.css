@@ -1,0 +1,109 @@
+body {
+    margin: 0px
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #71a89a;
+    color: white;
+    padding: 10px;
+  }
+
+  main {
+    text-align: center;
+  }
+
+iframe {
+    margin-top: 50px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .title {
+    font-size: 50px;
+    padding-left: 10px;
+  }
+  
+  .background {
+    font-size: 26px;
+    padding-right: 100px;
+  }
+
+  .background:hover {
+    color: black;
+  }
+
+  
+
+  .gpt-img{
+    height: 30vh;
+    width: 30vw;
+  }
+
+  .textarea-wrapper {
+    position: relative;
+  }
+  
+  .textarea {
+    width: 40vw;
+    height: 20vh;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    resize: none;
+    margin-top: 30px;
+  }
+
+  .save-button {
+    width: 40vw;
+    bottom: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #71a89a;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #4f7c6d;
+  }
+  
+  .textarea:focus {
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .judging {
+    margin-top: 50px;
+    width: 80%;
+  }
+
+  
+  
+  @media screen and (max-width: 768px) {
+    .title {
+        font-size: 34px;
+        padding-left: 10px;
+      }
+
+      .background {
+        font-size: 16px;
+        padding-right: 30px;
+      }
+
+  }
