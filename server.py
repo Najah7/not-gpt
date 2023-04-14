@@ -51,9 +51,9 @@ def gpt():
 def not_gpt():
     return render_template('not-gpt.html')
 
-@app.route('/judge/')
+@app.route('/judge/', methods=['POST'])
 def judge():
-    req_msg = request.args.get('req_msg')
+    req_msg = request.form['req_msg']
     # TODO: get gpt res
     res = fetch_gpt(req_msg)
     
